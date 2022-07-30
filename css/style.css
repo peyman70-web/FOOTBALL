@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'vazir';
+  src: url('../font/vazir.eot') format('eot'),
+       url('../font/vazir.ttf')  format('truetype'),         
+       url('../font/vazir.woff') format('woff'), 
+       url('../font/vazir.woff2') format('woff2'),         
+       url('webfont.svg#svgFontName') format('svg');
+}
+
+
+body{
+  font-family:'vazir' ;
+
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url('../img/19.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header .header-overlay{
+ 
+  background-color: rgba(0, 0, 0, .4);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+header nav{
+  background-color: rgba(0, 0, 0, .7);
+  width: 100%;
+  height: 60px;
+
+}
+
+header nav ul{
+ 
+  float: right;
+
+}
+
+header nav ul li{
+display: inline-block;
+margin: 0px 25px 0px 15px;
+line-height: 2;
+
+}
+
+header nav ul li a{
+text-decoration: none;
+color: white;
+text-align: center;
+font-size: 18px;
+}
+header nav ul li a:hover{
+  background-color: #ddd;
+  color: black;
+  }
+
+header nav .logo{
+  
+   width: 50%;
+   float: left;
+  margin-left: 30PX;
+}
+
+header nav .logo img{
+
+width: 60px;
+
+}
+header .back-ground{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+  color: #f1f1f1;
+
+}
+
+main div .ja{
+  
+  float: left;
+  width: 400px;
+  height: 500px;
+  
+  margin-top: 70px;
+}
+
+
+#r{
+  display: flex;
+  justify-content:space-around;
+}
+fieldset{
+  margin-top: 40px;
+  border: 0;
+}
+#g{
+  width: 1300px;
+  height: 550px;
+  display: flex;
+  justify-content:space-around;
+ 
+}
+.MyButton{
+  background-color:#5db616;
+  color:#fff;
+  padding:10px;
+  text-decoration:none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius:6px;
+  transition:0.2s;
+  border:2px solid #5db616;
+ }
+ 
+ .MyButton:hover{
+  background-color:#fff;
+  color:#000;
+  box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+ }   
+
+ #r2{
+  background-image: url('../img/21.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+ }
+ #r3{
+  padding: 50px;
+ }
+ .MyButton{
+  background-color:#5db616;
+  color:#fff;
+  padding:10px;
+  text-decoration:none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius:6px;
+  transition:0.2s;
+  border:2px solid #5db616;
+ }
+ 
+ .MyButton:hover{
+  background-color:#fff;
+  color:#000;
+  box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+ }   
+
